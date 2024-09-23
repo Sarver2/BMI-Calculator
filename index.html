@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BMI Generator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <span class="heading"><h1>BODY MASS INDEX</h1></span>
+    </nav>
+
+    <div class="container">
+      <h2>BMI Calculator</h2>
+      <form action="">
+        <span>
+          <label for="height"><b>Height : </b></label
+          ><input
+            type="text"
+            id="height"
+            placeholder="height in Centimeter (cm)"
+        /></span>
+
+        <span>
+          <label for="weight"><b>Weight : </b></label
+          ><input
+            type="text"
+            id="weight"
+            placeholder="weight in kilograms (kg)"
+        /></span>
+
+        <button class="submit">Calculate</button>
+      </form>
+
+      <div class="result">Result Here</div>
+
+      <span class="fullresult"></span>
+
+      <span>
+        <p style="font-size: large; font-weight: 700">
+          note:- height should be in Centimeter <br />
+          weight should be kilograms
+        </p>
+      </span>
+    </div>
+
+    <div class="bmiTable">
+      <table>
+        <thead>
+          <tr>
+            <th>Category</th>
+            <th>BMI(kg/m<sup>2</sup>)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Underweight</td>
+            <td>&lt;16.0 - 18.4</td>
+          </tr>
+          <tr>
+            <td>Normal</td>
+            <td>18.5 - 24.9</td>
+          </tr>
+          <tr>
+            <td>Overweight</td>
+            <td>&#8805;25</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
