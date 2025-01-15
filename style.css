@@ -45,8 +45,8 @@ h2 {
 .container {
   width: 400px;
   height: 400px;
-background-color: transparent;
-  
+background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(234,249,249,0.67) 0.1%, rgba(239,249,251,0.63) 90.1% );
+  color: black;
   font-size: 25px;
   border-radius: 7px;
  
